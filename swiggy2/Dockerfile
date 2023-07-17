@@ -1,5 +1,5 @@
 FROM adoptopenjdk:11-jre-hotspot
 WORKDIR /app
-COPY target/*.jar app.jar
+COPY target/swiggy2.jar app.jar
 EXPOSE 8080
 CMD ["java", "-jar", "app.jar"]
