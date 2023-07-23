@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM adoptopenjdk:17-jre-hotspot
 WORKDIR /app
 COPY /target/swiggy-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
